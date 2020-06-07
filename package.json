@@ -1,0 +1,28 @@
+{
+  "name": "kudos_stats_review",
+  "version": "1.0.0",
+  "description": "kudos_stats_review",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsanchestorrico/kudos_stats_review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsanchestorrico/kudos_stats_review/issues"
+  },
+  "homepage": "https://github.com/dsanchestorrico/kudos_stats_review#readme",
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}
